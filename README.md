@@ -4,3 +4,4 @@ npm add babel-loader -D
 npm add webpack-dev-server -D  
 
 npm add style-loader css-loader -D
+npm add file-loader -D
