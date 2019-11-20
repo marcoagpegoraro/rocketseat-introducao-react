@@ -6,3 +6,4 @@ npm add webpack-dev-server -D
 npm add style-loader css-loader -D  
 npm add file-loader -D  
 npm add @babel/plugin-proposal-class-properties -D  
+npm add prop-types

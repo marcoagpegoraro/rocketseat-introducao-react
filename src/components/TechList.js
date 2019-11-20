@@ -35,6 +35,7 @@ class TechList extends Component {
           <h1>{this.state.newTech}</h1>
           <ul>
             {this.state.techs.map(tech => <TechItem key={tech} tech={tech} onDelete={() => this.handleDelete(tech)} />)}
+            <TechItem />
           </ul>
           <input type="text" onChange={this.handleInputChange} value={this.state.newTech} />
           <button type="submit">Enviar</button>
